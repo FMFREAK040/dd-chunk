@@ -1,4 +1,5 @@
 #!/bin/bash                                                                                                                                                                                    
+# Please install dd first e.g. sudo apt install dd of yum install dd
 while getopts i:o:dhs: flag                                                                                                                                                                    
 do                                                                                                                                                                                             
     case "${flag}" in                                                                                                                                                                          
